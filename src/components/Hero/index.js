@@ -23,7 +23,7 @@ const Hero = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
-          <HeroH1>DirecTV PR</HeroH1>
+          <HeroH1>TV DIRECTO LATINO</HeroH1>
           <HeroP>El mejor servicio de Tv en Puerto Rico</HeroP>
           <a href="tel:+1(813)551-1017" >
           <HeroBtn>Llama Ahora</HeroBtn>

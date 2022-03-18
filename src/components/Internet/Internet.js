@@ -1,14 +1,14 @@
 import React from 'react';
-import { NoteContainer, Advise } from './InternetStyles.js';
-
+import './Internet.css'
+import { InternetContainer } from './InternetStyles';
 
 const Internet = () => {
     return (
-      <NoteContainer>
-        
-        <Advise>Agrega internet a tu servicio de cable con Claro y Liberty por $49.99 Adicionales</Advise>
+      <InternetContainer>
 
-      </NoteContainer>
+          <h1>Agrega internet ilimitado con fibra por $29.99 adicionales al mes</h1>
+
+      </InternetContainer>
     );
   };
   
