@@ -33,8 +33,8 @@ export const productData = [
   {
     img: img2,
     alt: 'Más Ahorro',
-    name: 'Plan CHOICE',
-    desc: 'Incluye 83 canales de video + 72 Canales de Audio',
+    name: 'Plan XTRA',
+    desc: 'Incluye 93 canales de video + 72 Canales de Audio',
     price: '$72.99',
     button: 'Llamar Ahora'
   }
