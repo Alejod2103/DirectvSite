@@ -13,8 +13,8 @@ export const Nav = styled.nav`
 export const DirecLogo = styled.img`
 position: relative;
 width: 100%;
-height: 100px;
-border-radius: 100%;
+height: 80px;
+top: 20px;
 
 @media (min-width: 300px) and (max-width: 800px) {
     width: 100px;

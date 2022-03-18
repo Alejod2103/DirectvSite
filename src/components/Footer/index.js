@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/direcnobg.png'
+import logo from '../../images/tvlatinoblanco.png'
 
 import {
   FooterContainer,

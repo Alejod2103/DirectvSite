@@ -58,9 +58,8 @@ export const SocialIconLink = styled.a`
 
 export const DirecLogo = styled.img`
 position: relative;
-width: 100%;
+width: 90%;
 height: 100px;
-border-radius: 100%;
 
 @media (min-width: 300px) and (max-width: 800px) {
   width: 200px;
