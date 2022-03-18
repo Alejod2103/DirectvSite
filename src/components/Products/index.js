@@ -24,9 +24,9 @@ const Products = ({ heading, data }) => {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
-                
+
                 <ProductPrice>{product.price}</ProductPrice>
-                <a href="tel:+1(813)551-1017" >
+                <a href="tel:+1(813)551-1017">
                 <ProductButton>{product.button}</ProductButton>
                 </a>
               </ProductInfo>

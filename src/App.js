@@ -7,6 +7,7 @@ import Products from './components/Products';
 import { productData } from './components/Products/data';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
+import Internet from './components/Internet/Internet';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/'>
         <Hero />
         <Products heading='Nuestros Paquetes' data={productData} />
+        <Internet />
         <Feature />
       </Route>
 
