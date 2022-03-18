@@ -16,9 +16,14 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
-  margin: 0 2rem;
+  margin: 0 3rem;
   line-height: 2;
   width: 300px;
+
+  @media (min-width: 300px) and (max-width: 800px) {
+    width: 280px;
+    margin-right: 60px;
+  }
 `;
 
 export const ProductImg = styled.img`
