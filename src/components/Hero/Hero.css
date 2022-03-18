@@ -1,0 +1,18 @@
+.Number{
+    text-decoration: none;
+    text-overflow: none;
+}
+
+.llamar{
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 55px;
+    color: #e69a17;
+
+    @media (min-width: 300px) and (max-width: 800px) {
+        display: none;
+    }
+
+}

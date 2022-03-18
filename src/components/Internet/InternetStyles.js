@@ -6,13 +6,14 @@ export const InternetContainer = styled.div`
     url(${ImgBg});
   height: 100vh;
   margin-top: 20px;
-  max-height: 550px;
+  max-height: 750px;
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
   color: #fff;
   text-align: center;
   padding: 0 1rem;
@@ -67,11 +68,16 @@ export const InternetP = styled.p`
 
 export const InternetBtn = styled.button`
   font-size: 1.4rem;
+  position: relative;
   padding: 1rem 4rem;
   border: none;
   background: #3269c2;
   color: #fff;
   transition: 0.2s ease-out;
+
+  @media (min-width: 300px) {
+      
+  }
 
   &:hover {
     background: #ffc500;
