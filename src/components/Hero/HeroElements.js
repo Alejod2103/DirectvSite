@@ -73,7 +73,7 @@ export const TelfInfo = styled.h1`
   @media (min-width: 300px) and (max-width: 800px) {
     position: absolute;
     left: 30px;
-    margin-top: 120px;
+    margin-top: 140px;
     font-family: 'Kanit', sans-serif;
     font-size: 45px;
     color: #e69a17;
@@ -89,7 +89,7 @@ export const LlamarText = styled.h1`
     color: #e69a17;
 
     @media (min-width: 300px) and (max-width: 800px) {
-        margin-top: 70px;
+        margin-top: 100px;
         left: 30px;
         font-size: 45px;
     }
